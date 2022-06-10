@@ -17,7 +17,3 @@ COPY . libdft
 WORKDIR libdft
 RUN make
 COPY ./env.init /opt/
-
-# VOLUME ["/data"]
-# WORKDIR /data
-# ENTRYPOINT [ "/opt/env.init" ]

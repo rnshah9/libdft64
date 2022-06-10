@@ -1,0 +1,8 @@
+project: libdft64
+target: libdft64
+image: ghcr.io/rnshah9/playground:libdft64
+#t
+cmds:
+  - cmd: /libdft/tools/obj-intel64/mini_test.exe @@
+    env:
+      DISABLE_SMOKETEST: '1'
